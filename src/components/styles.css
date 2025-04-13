@@ -1,0 +1,238 @@
+/* Global styles (you can add to src/App.css if preferred) */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A modern, clean font */
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8; /* Light, neutral background */
+  color: #333; /* Dark, readable text */
+  line-height: 1.6;
+}
+
+.app-container {
+  margin: 40px auto; /* More top/bottom margin */
+  padding: 30px;
+  background-color: #fff; /* White container for content contrast */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Hero Styles */
+.hero {
+  text-align: center;
+  padding: 150px 20px; /* Ajusta el padding según necesites */
+  background-image: url('../assets/sky-and-jet.jpg'); /* Asegúrate de que la ruta a tu imagen sea correcta */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+  font-size: 4.5em; /* Ajusta el tamaño según necesites */
+  margin-bottom: 15px;
+  color: white;
+  font-weight: 400; /* Usamos el peso regular (400) */
+  letter-spacing: 0.1em;
+  font-family: 'Kanit', sans-serif; /* Aplica la fuente Kanit */
+  font-style: italic; /* Aplica el estilo itálico */
+  text-transform: uppercase; /* Mantenemos el texto en mayúsculas */
+  transform: skewY(0deg); /* Removemos la inclinación anterior si la tenías */
+}
+
+.hero .landing-text {
+  font-size: 1.6em;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+/* Projects Styles */
+.projects {
+  padding: 30px 20px;
+  margin-bottom: 40px;
+}
+
+.projects h2 {
+  font-size: 2.8em;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center; /* Center the project items */
+}
+
+.project-item {
+  background-color: #fff;
+  border: 1px solid #eee; /* Lighter border */
+  padding: 25px;
+  border-radius: 8px;
+  flex: 1;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.project-item:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.project-item h3 {
+  font-size: 1.8em;
+  color: #d81b60; /* Accent color from the logo */
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.project-item p {
+  color: #666;
+  line-height: 1.7;
+}
+
+/* Contact Form Styles */
+.contact-form {
+  padding: 30px 20px;
+  margin-bottom: 40px;
+  background-color: #f9f9f9; /* Light gray background */
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.contact-form h2 {
+  font-size: 2.8em;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #444;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: calc(100% - 22px); /* Adjust for padding and border */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form button[type="submit"] {
+  background: linear-gradient(135deg, #ffb347 0%, #d81b60 100%); /* Gradient button */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #2c3e50; /* Dark footer background */
+  color: #f4f4f4;
+  font-size: 0.95em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px; /* Consistent rounded corners */
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer .location {
+  text-align: right;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .app-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .hero {
+    padding: 80px 15px;
+    margin-bottom: 30px;
+  }
+
+  .hero h1 {
+    font-size: 2.8em;
+  }
+
+  .hero .landing-text {
+    font-size: 1.2em;
+  }
+
+  .projects {
+    padding: 20px 15px;
+    margin-bottom: 30px;
+  }
+
+  .projects h2 {
+    font-size: 2.4em;
+    margin-bottom: 25px;
+  }
+
+  .projects-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-form {
+    padding: 20px 15px;
+    margin-bottom: 30px;
+  }
+
+  .contact-form h2 {
+    font-size: 2.4em;
+    margin-bottom: 25px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer .location {
+    text-align: center;
+  }
+}
