@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fintesia/static/css/main.3b6b40b6.css",
+    "main.js": "/fintesia/static/js/main.031a7676.js",
+    "static/js/453.5589c504.chunk.js": "/fintesia/static/js/453.5589c504.chunk.js",
+    "static/media/sky-and-jet.jpg": "/fintesia/static/media/sky-and-jet.3154743f1af0774c0052.jpg",
+    "index.html": "/fintesia/index.html",
+    "main.3b6b40b6.css.map": "/fintesia/static/css/main.3b6b40b6.css.map",
+    "main.031a7676.js.map": "/fintesia/static/js/main.031a7676.js.map",
+    "453.5589c504.chunk.js.map": "/fintesia/static/js/453.5589c504.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b6b40b6.css",
+    "static/js/main.031a7676.js"
+  ]
+}
