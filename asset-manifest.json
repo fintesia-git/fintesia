@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fintesia/static/css/main.3b6b40b6.css",
-    "main.js": "/fintesia/static/js/main.031a7676.js",
-    "static/js/453.5589c504.chunk.js": "/fintesia/static/js/453.5589c504.chunk.js",
-    "static/media/sky-and-jet.jpg": "/fintesia/static/media/sky-and-jet.3154743f1af0774c0052.jpg",
-    "index.html": "/fintesia/index.html",
-    "main.3b6b40b6.css.map": "/fintesia/static/css/main.3b6b40b6.css.map",
-    "main.031a7676.js.map": "/fintesia/static/js/main.031a7676.js.map",
-    "453.5589c504.chunk.js.map": "/fintesia/static/js/453.5589c504.chunk.js.map"
+    "main.css": "./static/css/main.a2bf92d2.css",
+    "main.js": "./static/js/main.1860bce0.js",
+    "static/js/453.5589c504.chunk.js": "./static/js/453.5589c504.chunk.js",
+    "static/media/sky-and-jet.jpg": "./static/media/sky-and-jet.3154743f1af0774c0052.jpg",
+    "index.html": "./index.html",
+    "main.a2bf92d2.css.map": "./static/css/main.a2bf92d2.css.map",
+    "main.1860bce0.js.map": "./static/js/main.1860bce0.js.map",
+    "453.5589c504.chunk.js.map": "./static/js/453.5589c504.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b6b40b6.css",
-    "static/js/main.031a7676.js"
+    "static/css/main.a2bf92d2.css",
+    "static/js/main.1860bce0.js"
   ]
 }
