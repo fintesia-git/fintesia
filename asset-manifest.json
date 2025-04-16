@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.a2bf92d2.css",
-    "main.js": "./static/js/main.688d841c.js",
+    "main.css": "./static/css/main.9b43de0e.css",
+    "main.js": "./static/js/main.d676d00f.js",
     "static/media/sky-and-jet.jpg": "./static/media/sky-and-jet.3154743f1af0774c0052.jpg",
     "index.html": "./index.html",
-    "main.a2bf92d2.css.map": "./static/css/main.a2bf92d2.css.map",
-    "main.688d841c.js.map": "./static/js/main.688d841c.js.map"
+    "main.9b43de0e.css.map": "./static/css/main.9b43de0e.css.map",
+    "main.d676d00f.js.map": "./static/js/main.d676d00f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2bf92d2.css",
-    "static/js/main.688d841c.js"
+    "static/css/main.9b43de0e.css",
+    "static/js/main.d676d00f.js"
   ]
 }
