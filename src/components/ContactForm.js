@@ -9,7 +9,7 @@ function ContactForm() {
   }
   return (
     <div className="contact-form">
-      <h2>Contact Us</h2> {/* Asegúrate de tener este título en tu componente App.js */}
+      <h2>Contacto</h2> {/* Asegúrate de tener este título en tu componente App.js */}
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">
