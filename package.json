@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d .next"
+    "deploy": "gh-pages -d .next",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",

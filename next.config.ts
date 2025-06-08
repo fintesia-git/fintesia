@@ -17,6 +17,8 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  output: 'export',
+  distDir: '.next',
 };
 
 export default nextConfig;
