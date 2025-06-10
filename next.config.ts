@@ -18,6 +18,11 @@ const nextConfig: NextConfig = {
     ];
   },
   distDir: '.next',
+  reactStrictMode: true,
+  swcMinify: true,
+  compiler: {
+    styledComponents: true,
+  },
 };
 
 export default nextConfig;

@@ -2,32 +2,42 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed w-full bg-white shadow-md z-50">
-      <nav className="container mx-auto px-4 py-4">
-        <div className="flex justify-between items-center">
+    <header className="fixed w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-16">
           <Link href="/" className="text-2xl font-bold text-blue-600">
             Fintesia
           </Link>
-
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
-            <Link href="/" className="hover:text-blue-600 transition-colors">
-              Inicio
-            </Link>
-            <Link href="/#soluciones" className="hover:text-blue-600 transition-colors">
+          
+          <nav className="hidden md:flex items-center space-x-8">
+            <Link href="#soluciones" className="text-gray-600 hover:text-blue-600">
               Soluciones
             </Link>
-            <Link href="/#nosotros" className="hover:text-blue-600 transition-colors">
+            <Link href="#nosotros" className="text-gray-600 hover:text-blue-600">
               Nosotros
             </Link>
-            <Link href="/#contacto" className="hover:text-blue-600 transition-colors">
+            <Link href="#contacto" className="text-gray-600 hover:text-blue-600">
               Contacto
             </Link>
+          </nav>
+
+          <div className="flex items-center space-x-4">
+            {/* Replace these with your actual social media links */}
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600">
+              <Image src="/social/instagram.svg" alt="Instagram" width={24} height={24} />
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600">
+              <Image src="/social/linkedin.svg" alt="LinkedIn" width={24} height={24} />
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600">
+              <Image src="/social/twitter.svg" alt="Twitter" width={24} height={24} />
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -93,7 +103,7 @@ const Header = () => {
             </Link>
           </div>
         )}
-      </nav>
+      </div>
     </header>
   );
 };
