@@ -15,20 +15,20 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              &copy; Cruip.com - All rights reserved.
+              &copy; fintesia.com - Todos los derechos reservados.
             </div>
           </div>
 
           {/* 2nd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h3 className="text-sm font-medium">Product</h3>
+            <h3 className="text-sm font-medium">Productos</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Features
+                  Soluciones
                 </Link>
               </li>
               <li>
@@ -36,7 +36,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Integrations
+                  Integraciones
                 </Link>
               </li>
               <li>
@@ -44,7 +44,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Pricing & Plans
+                  Precios y planes
                 </Link>
               </li>
               <li>
@@ -52,7 +52,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Changelog
+                  Registro de cambios
                 </Link>
               </li>
               <li>
@@ -60,7 +60,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Our method
+                  Nuestra metodología
                 </Link>
               </li>
             </ul>
@@ -68,14 +68,14 @@ export default function Footer({ border = false }: { border?: boolean }) {
 
           {/* 3rd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h3 className="text-sm font-medium">Company</h3>
+            <h3 className="text-sm font-medium">Empresa</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  About us
+                  Sobre nosotros
                 </Link>
               </li>
               <li>
@@ -83,7 +83,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Diversity & Inclusion
+                  Diversidad e Inclusión
                 </Link>
               </li>
               <li>
@@ -99,7 +99,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Careers
+                  Carreras
                 </Link>
               </li>
               <li>
@@ -107,7 +107,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Financial statements
+                  Informes financieros
                 </Link>
               </li>
             </ul>
@@ -115,14 +115,14 @@ export default function Footer({ border = false }: { border?: boolean }) {
 
           {/* 4th block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h3 className="text-sm font-medium">Resources</h3>
+            <h3 className="text-sm font-medium">Recursos</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Community
+                  Comunidad
                 </Link>
               </li>
               <li>
@@ -130,7 +130,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Terms of service
+                  Términos de servicio
                 </Link>
               </li>
               <li>
@@ -138,7 +138,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Report a vulnerability
+                  Reportar una vulnerabilidad
                 </Link>
               </li>
             </ul>
@@ -151,7 +151,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
-                  href="#0"
+                  href="x.com/fintesia_"
                   aria-label="Twitter"
                 >
                   <svg
