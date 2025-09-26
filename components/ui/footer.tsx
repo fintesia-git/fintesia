@@ -15,7 +15,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              &copy; fintesia.com - Todos los derechos reservados.
+              &copy; Fintesia - Todos los derechos reservados.
             </div>
           </div>
 
@@ -37,22 +37,6 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   href="#0"
                 >
                   Integraciones
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
-                >
-                  Precios y planes
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
-                >
-                  Registro de cambios
                 </Link>
               </li>
               <li>
@@ -83,14 +67,6 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Diversidad e Inclusión
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
-                >
                   Blog
                 </Link>
               </li>
@@ -99,15 +75,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  Carreras
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
-                >
-                  Informes financieros
+                  Oportunidades
                 </Link>
               </li>
             </ul>
@@ -117,14 +85,6 @@ export default function Footer({ border = false }: { border?: boolean }) {
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h3 className="text-sm font-medium">Recursos</h3>
             <ul className="space-y-2 text-sm">
-              <li>
-                <Link
-                  className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
-                >
-                  Comunidad
-                </Link>
-              </li>
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"

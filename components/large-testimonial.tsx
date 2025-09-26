@@ -30,15 +30,15 @@ export default function LargeTestimonial() {
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              “Fintesia ha simplificado mi vida en más de una manera.{" "}
-              <em className="italic text-gray-500">se han convertido</em>,
-              en partners estratégicos de mucha confianza.”
+              “Fintesia ha simplificado nuestra vida en más de una manera. Se han convertido en{" "}
+              <em className="italic text-gray-500">partners estratégicos</em>,
+              de mucha confianza.”
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
+              <span className="text-gray-700">Gabriela Castaño</span>{" "}
               <span className="text-gray-400">/</span>{" "}
               <a className="text-blue-500" href="#0">
-                CTO at Microsoft
+                CTO en LG
               </a>
             </div>
           </div>
